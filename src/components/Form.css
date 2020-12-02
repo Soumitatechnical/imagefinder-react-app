@@ -1,0 +1,22 @@
+input[type="text"]{
+    border:0;
+    border-bottom: 2px solid black;
+    outline-width: 0;
+    background:transparent;
+    color: #fff;
+}
+
+input[type="text"]:focus{
+    box-shadow: none;
+    color:#fff;
+    background-color: transparent;
+}
+
+form button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #29458b;
+    margin-left: 1rem;
+    box-shadow: none!important;
+}
